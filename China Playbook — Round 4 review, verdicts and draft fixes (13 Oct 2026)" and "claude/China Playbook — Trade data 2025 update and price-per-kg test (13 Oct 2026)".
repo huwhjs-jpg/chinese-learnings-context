@@ -1,0 +1,89 @@
+China Playbook — Round 4 review: verdicts and draft fixes (13 Oct 2026)
+
+Reviews "Research round 4" (other chat) together with "Trade data 2025 update and price-per-kg test". Nothing in the chapters has been changed yet.
+
+Verdicts on the weaker claims
+Claim	Verdict	Why
+L5 Established makers hold the costly end	Holds for factory equipment, pumps, compressors and Indian state buying. Contested in Indonesian mining.	Price per kg 2–6x (Comtrade 2025). Coal India buys through open domestic tenders; BEML keeps winning. But in 2025–26 XCMG sold 67 XDE130 120 t trucks plus 6 large excavators (Darma Henwa, Cokal), backed by IDR 800bn of vendor finance, and SANY delivered two 300 t electric excavators to Jhonlin.
+L6 Owning the route or a new machine moves the line	Suggestive. Fits the mining evidence.	The top-end wins came from SANY's maker-managed distributor and from XCMG's maker finance plus its own reman base (Balikpapan, Sep 2026), selling electric, hybrid and wide-body machines. No clean same-product, two-route test exists.
+Fixes with assets already owned	Partly supported	JCB held about 78% of Indian backhoes with 700+ outlets (combined fix). Komatsu's single moves failed: share fell from 26% to 20% within 2025, and its wide-body answer is a Tonly-built truck. Astra equipment finance grew 11% in 2025.
+Recommendation
+Keep four copyable lessons (L1–L4).
+Turn L5 and L6 into Part III findings rather than lessons:
+(a) where the costly end holds: value per kg, rules that pick the brand, the parts annuity;
+(b) where it is moving: Indonesian mining, through new machines (electric, hybrid, wide-body) plus maker finance, a maker-run route and local reman. This turns the mining counter-evidence into the chapter's main point instead of a caveat.
+Fixes needed in Ch 1–5 and the deck
+SANY Perkasa "44 branches" not found. Use 24 branches and 55 network points (Jul 2025, local press quoting the VP Director), or drop.
+Indian cranes as a "costly-end exception": not supported. ACE and Escorts lead domestically; China leads imports (87–90% of crane-truck imports, 2024–25). Keep the import figures, drop the exception framing.
+Press Note 2: DPIIT, 15 Mar 2026; FEMA rules notified 1 May 2026. Law firms read it as a partial relaxation. Check our "60-day approval, Indian majority" wording against the DPIIT text: https://www.dpiit.gov.in/static/uploads/2026/03/b9da5830b052c2f2d788593e97d07c63.pdf
+Thai excavators (Ch 3): China 35/36/42% and Japan 40/51/44% (2019/2024/2025, Comtrade). The 2019–24 "no gap" example weakens in 2025.
+Ch 4 dealers: add that Chinese-brand dealers run thin margins and shrinking parts income. Intraco gross margin about 16–17%, net loss, negative equity (H1 2026). Kobexindo about 15% (Q1 2025), parts down 27% (H1 2026). Hexindo (Hitachi) 17–22%; its parts earned more operating profit than machines (FY2023). This is the established makers' dealer pitch: the parts annuity.
+Ch 1: add the 2025 series (share above 2019 in 40 of 43 markets; 24 markets at 50%+).
+Permenperin 35/2025: issued 11 Sep 2025, effective 11 or 12 Dec 2025 (sources conflict). Ministry news URLs are in round 4.
+Cummins Q2 2026 transcript: https://stockanalysis.com/stocks/cmi/transcripts/660736-q2-2026/
+Still open
+A two-route comparison (round 5).
+Electric-forklift brand shares.
+The XCMG 24-hour repair URL.
+GM Tractors branch count.
+Mining fleet counts by brand.
+Resale prices.
+What drove Indonesia's robot import jump in 2025.
+
+China Playbook — Trade data 2025 update and the price-per-kg test (13 Oct 2026)
+
+Source: UN Comtrade public API (comtradeapi.un.org/public/v1/preview), imports, HS 6-digit, reporters India (699), Indonesia (360), Thailand (764), Malaysia (458). Filters: partner2Code 0, motCode 0, customsCode C00. "Established" = Japan, Korea, US, Germany, Austria, Italy, France, UK, Switzerland, Sweden, Finland, Poland, Netherlands, Belgium, Spain, Denmark, Czechia. Price per kg only for Indonesia and Thailand (India and Malaysia weights are estimated). Import data shows country of origin, not brand, and leaves out machines built locally (e.g. Komatsu and SANY in Indonesia, almost all construction equipment in India). Script: an3.py in session scratchpad.
+
+1. Did the gains last into 2025?
+
+Mostly yes. 43 product markets over US$20m in 2025:
+
+China's share rose more than 2 points in 25, held within 2 points in 6, fell more than 2 points in 12.
+China had half or more of imports in 6 markets in 2019, 19 in 2024 and 24 in 2025.
+China's 2025 share was above its 2019 share in 40 of 43.
+7 of the 12 falls were in India: injection moulding 53→47%, lasers 47→44%, compressors 53→49%, machining centres 15→12%, off-road trucks 43→39%, cranes (842619) 61→55%, crane trucks (842641) 90→87%. These line up with the duties and local plants (Ch 5). India is the one market where the shift paused in 2025.
+2. Key series, China's share of import value (2019 / 2024 / 2025)
+Market	China %	Japan %	Established %
+Indonesia excavators	33 / 74 / 73	24 / 7 / 14	37 / 10 / 16
+Indonesia off-road dump trucks	5 / 25 / 30	41 / 25 / 24	55 / 46 / 45
+India excavators	8 / 34 / 38	36 / 24 / 21	79 / 51 / 53
+India crane trucks (842641)	28 / 90 / 87	1 / 1 / 0	48 / 9 / 13
+Thailand excavators	35 / 36 / 42	40 / 51 / 44	51 / 53 / 47
+India gensets >375 kVA	15 / 20 / 44	13 / 0 / 0	75 / 75 / 53
+Malaysia gensets >375 kVA	20 / 84 / 82	6 / 0 / 0	56 / 3 / 8
+Thailand gensets >375 kVA	51 / 77 / 79	2 / 2 / 1	29 / 15 / 6
+Indonesia industrial robots	25 / 17 / 62	43 / 31 / 12	55 / 50 / 25
+India industrial robots	16 / 26 / 34	27 / 26 / 30	78 / 69 / 57
+Thailand injection moulding	24 / 53 / 68	43 / 17 / 14	58 / 35 / 23
+Thailand CNC lathes	7 / 29 / 58	53 / 44 / 24	75 / 53 / 29
+3. Weight vs value: the everyday end vs the costly end (2025)
+
+China ships most of the weight but a smaller share of the value. Established makers' machines cost 2 to 6 times more per kg.
+
+Indonesia 2025	China value %	China weight %	China US$/kg	Established US$/kg	Ratio
+Excavators	73	80	3.3	6.1	1.9x (1.2x in 2019)
+Off-road dump trucks	30	52	4.8	12.8	2.7x
+Machining centres	30	57	5.0	18.1	3.6x
+Laser machines	68	91	11.1	63.9	5.8x
+Injection moulding	69	85	4.1	13.0	3.1x
+Centrifugal pumps	60	87	5.0	31.1	6.3x
+Air compressors	53	81	6.6	28.2	4.3x
+Gensets >375 kVA	73	80	11.6	27.1	2.3x
+Industrial robots	62	85	15.3	35.9	2.3x (3.9x in 2019)
+Thailand 2025	China value %	China weight %	China US$/kg	Established US$/kg	Ratio
+Machining centres	43	60	8.2	17.7	2.2x
+CNC lathes	58	76	7.4	21.0	2.8x
+Laser machines	60	85	17.8	64.6	3.6x
+Centrifugal pumps	56	82	5.5	24.2	4.4x
+Air compressors	42	73	7.6	35.7	4.7x
+Gensets >375 kVA	79	84	13.5	14.3	1.1x
+Industrial robots	44	67	24.0	53.9	2.2x
+Excavators	42	42	3.6	3.6	1.0x
+4. What this means for the draft
+Supports L5 (costly end). In every factory-equipment line, and in pumps and compressors, China's share of weight is 15 to 30 points above its share of value. The gap held or widened from 2019 to 2025. This is the backbone exhibit for Chapter 6.
+Exceptions confirmed. Gensets: in Thailand, Chinese large gensets cost about the same per kg as established ones (1.1x), and China's share in India jumped from 20% to 44% in 2025 as established makers sold out (Ch 3, L2). Excavators in Thailand: no price gap at all.
+Robots are moving up. Indonesia's robot price gap narrowed from 3.9x to 2.3x, and China's share went from 17% to 62% in one year. This fits L6 (new factories, new kind of machine). Check what drove 2025 before using it.
+Flag for Ch 3. The Thai excavator "no gap, little moves" example weakens with 2025: China 35→42%, Japan 40→44%. Either keep the 2019–24 window and say so, or swap in JCB backhoes in India as the main "no gap" case.
+New point for Ch 5. India is the only market where China's share fell broadly in 2025 (7 of 12 falls), consistent with duties and local plants.
+Caveat to state once (About box). Import data shows origin, not brand, and leaves out locally built machines.
+
